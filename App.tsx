@@ -574,6 +574,13 @@ function App() {
              </div>
            )}
         </div>
+
+        {/* Footer */}
+        <footer className="h-10 border-t border-slate-800 flex items-center justify-center bg-background/80 backdrop-blur z-20">
+          <p className="text-[10px] text-slate-500 font-medium">
+            2026-{new Date().getFullYear()} (c) A/E Department, <a href="https://mpam-lab.xyz" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-indigo-400 transition-colors">MPAM Laboratory</a>.
+          </p>
+        </footer>
       </div>
     </div>
   );
